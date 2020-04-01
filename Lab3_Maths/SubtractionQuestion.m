@@ -1,14 +1,14 @@
 //
-//  AdditionQuestion.m
+//  SubtractionQuestion.m
 //  Lab3_Maths
 //
 //  Created by WendaLi on 2020-04-02.
 //  Copyright © 2020 WendaLi. All rights reserved.
 //
 
-#import "AdditionQuestion.h"
+#import "SubtractionQuestion.h"
 
-@implementation AdditionQuestion
+@implementation SubtractionQuestion
 
 - (instancetype)init
 {
@@ -21,8 +21,8 @@
 
 - (void) generateQuestion
 {
-    super.question = [NSString stringWithFormat:@"%i + %i ?", super.rightValue, super.leftValue];
-    super.answer = super.rightValue + super.leftValue;
+    super.question = [NSString stringWithFormat:@"%i - %i ?", super.rightValue, super.leftValue];
+    super.answer = super.rightValue - super.leftValue;
 }
 
 @end

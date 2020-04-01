@@ -1,5 +1,5 @@
 //
-//  AdditionQuestion.h
+//  SubtractionQuestion.h
 //  Lab3_Maths
 //
 //  Created by WendaLi on 2020-04-02.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AdditionQuestion : Question
+@interface SubtractionQuestion : Question
 
 - (void) generateQuestion;
 
